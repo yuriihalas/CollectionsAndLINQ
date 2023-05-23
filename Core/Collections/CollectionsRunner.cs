@@ -4,7 +4,7 @@ public static class CollectionsRunner
 {
     public static void Run()
     {
-        List<ShoppingItem> shoppingList = new List<ShoppingItem>
+        List<ShoppingItem> shoppingList = new()
         {
             new("Pie", 20.3M, 2),
             new("Apple", 10.3M, 1),

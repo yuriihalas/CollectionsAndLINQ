@@ -9,14 +9,12 @@ public class ShoppingItem
         Quantity = quantity;
     }
 
-    public string Name { get; set; }
+    public string Name { get; init; }
 
-    public Decimal Price { get; set; }
+    public decimal Price { get; init; }
 
-    public int Quantity { get; set; }
+    public int Quantity { get; init; }
 
-    public override string ToString()
-    {
-        return $"{nameof(Name)}: {Name}, {nameof(Price)}: {Price}, {nameof(Quantity)}: {Quantity}";
-    }
+    public override string ToString() =>
+        $"{nameof(Name)}: {Name}, {nameof(Price)}: {Price}, {nameof(Quantity)}: {Quantity}";
 }

@@ -4,8 +4,5 @@ namespace CollectionsAndLINQ.Core;
 
 public static class Program
 {
-    public static void Main(string[] args)
-    {
-        CollectionsRunner.Run();
-    }
+    public static void Main(string[] args) => CollectionsRunner.Run();
 }

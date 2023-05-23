@@ -6,8 +6,5 @@ public class Name
     public string? Middle { get; set; }
     public string? Last { get; set; }
 
-    public override string ToString()
-    {
-        return $"{nameof(First)}: {First}, {nameof(Middle)}: {Middle}, {nameof(Last)}: {Last}";
-    }
+    public override string ToString() => $"{nameof(First)}: {First}, {nameof(Middle)}: {Middle}, {nameof(Last)}: {Last}";
 }
